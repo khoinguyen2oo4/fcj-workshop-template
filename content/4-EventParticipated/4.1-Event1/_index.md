@@ -1,124 +1,56 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-05-09
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Event 1 Report: The Power of Continuous Learning & The Era of AI Engineering
 
 ### Event Objectives
+- Share knowledge and summarize the core values of the **"continuous learning"** mindset in developing individual capabilities and team strength.
+- In-depth discussion on the topic: *"Why continuous learning is one of the most powerful investments we can make - not just as individuals, but as a team"*.
+- Update on the latest technology trends regarding AI application in programming (Context Engineering, Automated Prompt Engineering).
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
-
-### Speakers
-
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+### List of Speakers
+The event featured presentations and sharing from core members of the FCAJ project:
+- **Khang Nguyen**
+- **Thịnh Nguyễn** 
+- **Long Hoàng**
+- **Thao Nguyen Phuong**
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### 1. Continuous Learning Mindset
+- **Diverse perspectives:** Each individual stepped up to share their study approaches, learning frameworks, and the mindset shifts that have shaped how they absorb knowledge.
+- **Collective strength:** Learning doesn't stop when you leave the classroom; it deepens when you surround yourself with people who challenge you to think differently. A team that is genuinely curious, willing to be vulnerable about what they don't know, and eager to lift each other up is a team built for the long run.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+#### 2. The New Era of Context Engineering & BMAD Method
+- Introduction to the **BMAD METHOD**: Integrating the power of both Agile teams and Artificial Intelligence (AI) directly into your Integrated Development Environment (IDE).
+- **Engineering-standard Code:** Going beyond the limits of regular code lines to aim for high engineering standards.
+- **Lightning-fast deployment:** Guide on setting up locally and independently for each project quickly with the command: `npx bmad-method@next install .` (Requires Node.js v20+, Python 3.10+).
 
-#### Transitioning to modern application architecture – Microservices
+#### 3. Automated Prompt Engineering
+- This topic was presented by Mr. **Nguyen Tuan Thinh** (DevOps/Cloud Engineer).
+- Analyzing the importance of Prompt Engineering to enhance and control the output quality of Large Language Models (Enhancing LLM Output Quality).
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+### What I Learned
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Growth Mindset
+- Reaffirming that capacity development is not just an individual responsibility but a **shared responsibility of the entire team**.
+- Realizing the importance of building a safe Knowledge Sharing environment, where everyone is not afraid to show their weaknesses to overcome them together.
 
-#### Domain-Driven Design (DDD)
+#### Practical Application of Technology
+- Grasping the concept of **Context Engineering** and how to bring AI Agents directly into the project (via the BMAD Method) to accelerate software development.
+- Understanding that to maximize the power of GenAI/LLM, developers need to equip themselves with systematic **Automated Prompt Engineering** skills instead of just writing prompts instinctively.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### Experience During the Event
+What resonated with me the most after Event 1 was not just the dry technological knowledge, but the **collective energy**. 
 
-#### Event-Driven Architecture
+True to the spirit of *"We showed up to share. We left with more than we came with"*, the diversity of perspectives from our seniors was truly inspiring. I feel proud to be part of the FCAJ team, where growth is treated as a shared goal. Sharing sessions like this are an invaluable investment for my mindset and future career path.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### Some Evidence Photos of Event Participation:
 
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+*Slide introducing Engineering-standard Code*
+![Engineering-standard Code](/images/4-EventParticipated/event1/event1.jpg)

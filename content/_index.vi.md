@@ -5,36 +5,27 @@ weight: 1
 chapter: false
 ---
 
-# Báo cáo thực tập
-### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Đình Khôi
+# 🎓 Báo cáo Thực tập
+**Vị trí:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Số điện thoại:** 0967999015
+---
 
-&emsp; **Email:** khoinguyen0014@gmail.com
+### 👤 Thông tin Sinh viên
 
-&emsp; **Trường:** Đại học Công nghệ TP.HCM (Hutech)
+| 📸 Ảnh đại diện | 📝 Chi tiết Hồ sơ |
+| :---: | :--- |
+| <img src="/images/avatar.jpg" width="160" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> | **Họ và tên:** Nguyễn Đình Khôi<br>**Điện thoại:** 0967999015<br>**Email:** khoinguyen0014@gmail.com<br>**Trường:** Đại học Công nghệ TP.HCM (HUTECH)<br>**Ngành:** Công nghệ thông tin<br>**Lớp:** 22DTHA1<br>**Công ty:** Công ty TNHH Amazon Web Services Viet Nam<br>**Thời gian thực tập:** 17/04/2026 – 30/07/2026 |
 
-&emsp; **Ngành:** Công nghệ thông tin
+---
 
-&emsp; **Lớp:** 22DTHA1
+### 📑 Nội dung Báo cáo
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
+Dưới đây là tổng hợp các hạng mục, tài liệu và sản phẩm đã thực hiện trong suốt quá trình thực tập:
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
-
-&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 17/07/2026
-
-![Ảnh đại diện của bạn](/images/avatar.jpg)
-
-
-
-### Nội dung báo cáo
-
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [Các bài blogs đã đăng](3-BlogsPosted/)
-4.  [Các events đã tham gia](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Tự đánh giá](6-Self-evaluation/)
-7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+*   [**1. Worklog**](1-Worklog/): Nhật ký công việc và tiến độ thực tập chi tiết theo tuần.
+*   [**2. Proposal**](2-Proposal/): Đề xuất dự án, giải pháp và thiết kế kiến trúc hệ thống.
+*   [**3. Blogs Posted**](3-BlogsPosted/): Tổng hợp các bài viết chia sẻ kiến.
+*   [**4. Events Participated**](4-EventParticipated/): Các sự kiện tại AWS đã tham gia.
+*   [**5. Workshop**](5-Workshop/): Chuỗi tài liệu hướng dẫn triển khai hệ thống WeDo Workspace.
+*   [**6. Self-evaluation**](6-Self-evaluation/): Tự đánh giá năng lực, kỹ năng và kết quả đạt được.
+*   [**7. Feedback**](7-Feedback/): Chia sẻ kinh nghiệm và đóng góp ý kiến cho chương trình.

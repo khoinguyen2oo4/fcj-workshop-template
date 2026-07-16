@@ -5,55 +5,22 @@ weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 11:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Áp dụng tư duy Cơ sở hạ tầng dưới dạng mã (Infrastructure as Code - IaC) để tự động hóa việc triển khai và quản lý tài nguyên AWS.
+* Xây dựng và quản lý kiến trúc AWS bằng các ngôn ngữ lập trình phổ biến thông qua AWS Cloud Development Kit (CDK).
+* Nắm vững các nguyên tắc cốt lõi về mô hình hóa dữ liệu NoSQL, các tính năng nâng cao và cách tích hợp Generative AI với Amazon DynamoDB.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | **AWS CloudFormation:** Tìm hiểu cách mô tả hạ tầng đám mây bằng code (JSON/YAML) để tự động hóa triển khai ứng dụng. Cấu hình môi trường và thực hành trực tiếp trên trình duyệt bằng AWS Cloud9 IDE. | 29/06/2026 | 29/06/2026 | https://000037.awsstudygroup.com/1-introduction/ |
+| 3 | **CDK Basic:** Triển khai kiến trúc AWS bằng các ngôn ngữ lập trình (TypeScript, Python, Java...). Thực hành tạo, cập nhật Template CDK, cấu hình EC2 qua User Data và dọn dẹp tài nguyên (Resource Cleanup). | 30/06/2026 | 30/06/2026 | https://000038.awsstudygroup.com/1-introduction/ |
+| 4-6 | **Amazon DynamoDB Immersion Day:** Thực hành từ cơ bản (CLI/Console) đến nâng cao (Design Patterns, CDC, Event-Driven Architecture). Đặc biệt, thực hành tích hợp Generative AI (Zero-ETL vào OpenSearch kết hợp Amazon Bedrock) và xây dựng hệ thống Global (Multi-Region). | 01/07/2026 | 03/07/2026 | https://000039.awsstudygroup.com/1-introduction/ |
 
 ### Kết quả đạt được tuần 11:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+* **Tự động hóa hạ tầng (IaC):** Thành thạo việc sử dụng CloudFormation và Cloud9 IDE để định nghĩa và khởi tạo trọn gói một cụm tài nguyên trên AWS, giảm thiểu rủi ro từ các thao tác thủ công.
+* **Mở rộng khả năng lập trình đám mây (AWS CDK):** Nắm vững quy trình thiết kế hạ tầng bằng chính ngôn ngữ lập trình đang sử dụng, giúp dễ dàng tận dụng các vòng lặp, biến số và quản lý phiên bản kiến trúc.
+* **Làm chủ Cơ sở dữ liệu NoSQL:** Hiểu sâu sắc sự đánh đổi (tradeoffs) khi thiết kế Data model trên DynamoDB để đạt hiệu suất mili-giây. Nắm bắt được quy trình tích hợp sự kiện thời gian thực (Streams/Lambda) và kỹ thuật kết hợp dữ liệu truyền thống với các mô hình Generative AI để tìm kiếm bằng ngôn ngữ tự nhiên.
 

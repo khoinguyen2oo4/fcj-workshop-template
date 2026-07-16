@@ -5,40 +5,38 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
 ### Đánh giá chung
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+**1. Lộ trình vào thực tế**  
+Trải nghiệm 12 tuần First Cloud AI Journey là từ lý thuyết ra thực hành cực kỳ mượt. Thay vì nhồi nhét từng dịch vụ AWS trống trơn trống hỏi, chương trình cho người đọc phải nhìn bức tranh tổng thể. Cảm giác tự tay quy hoạch, thiết lập phân quyền làm móng, rồi ráp nối chuỗi EC2, Lambda, API Gateway đến CloudFront và WAF trong Workshop ZeroBug Agent hiểu rõ hơn. Nó giúp một sinh viên năm 4 tháo gỡ được tư duy hệ thống, vỡ lẽ ra cách các dịch vụ Enterprise tương tác liền mạch với nhau như thế nào trong môi trường production.
 
 **2. Sự hỗ trợ của mentor / team admin**  
 Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+**3. Tài liệu & Vận hành Teamwork**  
+Thách thức lớn nhất: Là bài toán. Việc thiết kế kiến trúc mạng và băm nhỏ quyền IAM sao cho các thành viên đều có đủ đất diễn, xài chung hạ tầng trơn tru mà không tạo ra lỗ hổng bảo mật là cực kỳ hóc búa.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
+Khúc mắc thực tế: Việc đồng bộ thông số môi trường giữa các tay đan chéo nhau rất dễ bị gãy nhịp nếu bàn giao lệch dù chỉ một dòng config.
+
+Kinh nghiệm: Phải chốt hạ quy ước đặt tên (Naming Convention) ngay từ giây đầu tiên. Kế hoạch triển khai phải minh bạch và team phải "sync" (đồng bộ) với nhau liên tục để dập lỗi ngay khi nó mới chớm.
+
+**4. Khó khăn & Kinh nghiệm**  
 Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
-
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
-
+**5. Hỗ trợ từ chương trình**  
+Mình cảm ơn đến dàn anh chị vì sự hỗ trợ tận tình. Nhờ sự hỗ trợ giúp cả team giảm bớt khó khăn từ đầu đến cuối để hoàn thành kì thực tập.
 
 ### Một số câu hỏi khác
 - Điều bạn **hài lòng nhất** trong thời gian thực tập?  
+Chính là sự tận tâm của các anh/chị AWS. Những lúc kẹt kiến trúc, các anh chị không chỉ fix lỗi giúp mà còn chỉ nguyên nhân cốt lõi cực kỳ dễ hiểu. Quan trọng nhất là được vào một hệ thống thật, làm việc như một quy trình chuẩn của doanh nghiệp.
 - Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
+Mình nghĩ nếu có cần cải thiện thì là Event (23/05). Lí do là vì có trường hợp trong phòng quá đông đến nổi không đủ ghế nên phải dời lên tầng 36. Nhưng mình là người dính và bị mắc ngồi dựa nền không có ghế nên trải nghiệm trong 3 tiếng đồng hồ nghe giản là đau lưng, tê chân, mỏi mắt. Tuy nghe được bài giản nhưng trải nghiệm của mình thực sự không được vui.
 - Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
-
+CÓ. Bất kỳ ai muốn biết Cloud và cần một bệ phóng bài bản, vừa học tư duy vừa được nhúng tay trực tiếp vào dự án thật để cọ xát thì đây là bến đỗ hoàn hảo.
 
 ### Đề xuất & mong muốn
 - Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
+-> Có vài bài LAB bị lỗi chữ và ảnh không hiện, cần sửa lỗi
 - Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+-> Nếu không có gì thay đổi thì mình sẽ tiếp tục theo chương trình
