@@ -55,11 +55,6 @@ Tham gia sự kiện **“GameDay - 8 Đội Tranh Hùng”** là một trong nh
 - Trải nghiệm đáng nhớ nhất là phần thi giải quyết các bộ đề tình huống. Bằng nền tảng kiến thức đã được rèn luyện, team có thể phân tích keyword cực nhanh. 
 - Điển hình như tình huống ở **Bộ Đề 3**: Yêu cầu tìm kiếm một dịch vụ cơ sở dữ liệu phi quan hệ (non-relational database) linh hoạt, tốc độ cao và có khả năng mở rộng mạnh mẽ để đáp ứng traffic khó đoán cho một ứng dụng Mobile App của Startup. Dựa vào các từ khóa *"flexible"*, *"scalable non-relational database"*, đáp án chính xác **Amazon DynamoDB** được đưa ra ngay lập tức một cách đầy tự tin.
 
-#### Một số hình ảnh khi tham gia sự kiện
-
-*Hình ảnh đội thi đấu*
-
-![Event GameDay](/fcj-workshop-template/images/4-EventParticipated/event3/event3-1.JPG)
 
 *Minh chứng*
 ![Event GameDay](/fcj-workshop-template/images/4-EventParticipated/event3/event3-2.JPG)
